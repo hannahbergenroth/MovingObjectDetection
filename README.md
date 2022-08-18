@@ -1,5 +1,7 @@
 # Moving Object Detection
-Project developed in spring 2021
+Project developed in spring 2021 
+
+The code is the implementation of my master's thesis Use of Thermal Imagery for Robust Moving Object Detection - Download paper [here](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1578091&dswid=-8919)
 
 This work proposes a system that utilizes both infrared and visual imagery to create a more robust object detection and classification system. The system consists of two main parts: a moving object detector and a target classifier. The first stage detects moving objects in visible and infrared spectrum using background subtraction based on Gaussian Mixture Models. Low-level fusion is performed to combine the foreground regions in the respective domain. For the second stage, a Convolutional Neural Network (CNN), pre-trained on the ImageNet dataset is used to classify the detected targets into one of the pre-defined classes; human and vehicle. 
 
